@@ -1,0 +1,32 @@
+form {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+label {
+  margin: .5rem 0;
+}
+.form {
+  border: 1px solid blue;
+  box-shadow: 0 0 .5rem .15rem;
+  margin: .75rem;
+  width: 60%;
+}
+.fr-wrapper {
+  box-sizing: border-box;
+  border: 1px solid blue;
+  box-shadow: 0 0 .5rem .15rem;
+  padding: 1.25rem;
+  width: 100%;
+}
+div.fr-wrapper {
+  margin: 0;
+}
+.fr-wrapper span {
+  display: inline-block;
+}
+.App {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
